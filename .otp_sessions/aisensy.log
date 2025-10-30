@@ -1,0 +1,112 @@
+2025-10-28T09:12:19+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"9715245006","userName":"SR Seatiing Private Limited","source":"website","templateParams":["195412"]}
+RESP:{"success":"true","submitted_message_id":"b948c37a-3ac8-4415-8077-60169c517f62"}
+
+2025-10-28T09:12:38+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"9715245006","userName":"SR Seatiing Private Limited","source":"website","templateParams":["732966"]}
+RESP:{"success":"true","submitted_message_id":"70e546e9-8dbc-4765-8dc3-85275956173a"}
+
+2025-10-28T09:13:04+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"9715245006","userName":"SR Seatiing Private Limited","source":"website","templateParams":["022713"]}
+RESP:{"success":"true","submitted_message_id":"d327dbb1-9ac0-4c04-96b0-b18d8e9c512e"}
+
+2025-10-28T09:13:28+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"9715245006","userName":"SR Seatiing Private Limited","source":"website","templateParams":["743463"]}
+RESP:{"success":"true","submitted_message_id":"e23844c8-e829-4da8-a00b-9235fba824bc"}
+
+2025-10-28T09:13:56+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"9715245006","userName":"SR Seatiing Private Limited","source":"website","templateParams":["876331"]}
+RESP:{"success":"true","submitted_message_id":"34882b48-cdd0-4dea-8a5b-dd9a9713b613"}
+
+2025-10-28T09:14:13+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"9715245006","userName":"SR Seatiing Private Limited","source":"website","templateParams":["599472"]}
+RESP:{"success":"true","submitted_message_id":"ee8429ea-1953-46c4-8dce-131fc9a9ac19"}
+
+2025-10-28T09:21:19+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"9715245006","userName":"SR Seatiing Private Limited","source":"website","templateParams":["208327"]}
+RESP:{"success":"true","submitted_message_id":"0a0ddf98-b529-4748-873b-f294d3f4237c"}
+
+2025-10-28T09:21:38+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"9715245006","userName":"SR Seatiing Private Limited","source":"website","templateParams":["129844"]}
+RESP:{"success":"true","submitted_message_id":"d4b68b9b-197e-4bd8-be6c-6d717dd6d476"}
+
+2025-10-28T09:25:22+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"919715245006","userName":"SR Seatiing Private Limited","source":"website","templateParams":["609468"]}
+RESP:{"success":"true","submitted_message_id":"e0c08b8c-8b0f-4a81-bf8e-0398c990197d"}
+
+2025-10-28T09:28:56+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"918788266456","userName":"Sr Seatiing Private Limiited","source":"website","templateParams":["831073"]}
+RESP:{"success":"true","submitted_message_id":"95a3ded0-64cb-413b-95d8-c42bd3a53f1d"}
+
+2025-10-28T09:38:40+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"919715245006","userName":"SR Seatiing Private Limited","source":"website","templateParams":["874441"]}
+RESP:{"success":"true","submitted_message_id":"23bf57f7-15aa-4452-8386-3114a8634e56"}
+
+2025-10-28T09:39:48+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"919715245006","userName":"Sr Seatiing Private Limiited","source":"website","templateParams":["129771"]}
+RESP:{"success":"true","submitted_message_id":"5ee26c37-0fd1-4ecd-be11-c597fd710f65"}
+
+2025-10-28T09:40:42+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"919715245006","userName":"SR Seatiing Private Limiited","source":"website","templateParams":["982796"]}
+RESP:{"success":"true","submitted_message_id":"acf32c86-af0c-4855-bd58-28bae829152d"}
+
+2025-10-28T09:41:25+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"919715245006","userName":"SR Seatiing Private Limiited","source":"website","templateParams":["274168"]}
+RESP:{"success":"true","submitted_message_id":"c0064700-07b6-41c3-84d6-5f773fc9c6d0"}
+
+2025-10-28T09:44:18+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"919715245006","userName":"SR Seatiing Private Limiited","source":"website","templateParams":["224377"]}
+RESP:{"success":"true","submitted_message_id":"a40da5e5-18ae-42b9-ada9-9d4211131308"}
+
+2025-10-28T10:00:56+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"9715245006","userName":"SR Seatiing Private Limiited","source":"website","templateParams":["462170"]}
+RESP:{"success":"true","submitted_message_id":"9f9731ee-0a06-4ae9-95c2-3aca11458889"}
+
+2025-10-28T10:07:36+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"919715245006","userName":"SR Seatiing Private Limiited","source":"website","templateParams":["438979"],"buttonParams":[{"type":"copy_code","text":"438979"}]}
+RESP:{"success":"true","submitted_message_id":"ba89a59d-681d-4389-ba1b-c19a993ef2a1"}
+
+2025-10-28T10:09:16+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"919715245006","userName":"SR Seatiing Private Limiited","source":"website","templateParams":["387046"],"buttonParams":[{"type":"copy_code","text":"387046"}]}
+RESP:{"success":"true","submitted_message_id":"d147f66f-0cc3-431b-b7c8-a1636f94f02b"}
+
+2025-10-28T10:16:35+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"919715245006","userName":"SR Seatiing Private Limiited","source":"website","templateParams":["825389"],"buttonParams":[{"type":"copy_code","text":"825389"}]}
+RESP:{"success":"true","submitted_message_id":"7a6e0b7b-0392-429e-8e74-53f07799f57e"}
+
+2025-10-28T10:19:07+01:00 HTTP:400
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"91919715245006","userName":"SR Seatiing Private Limiited","source":"website","templateParams":["866868"],"buttonParams":[{"type":"copy_code","text":"866868"}]}
+RESP:{"message":"Invalid Number"}
+
+2025-10-28T10:20:29+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"919715245006","userName":"SR Seatiing Private Limiited","source":"website","templateParams":["205269"],"buttonParams":[{"type":"copy_code","text":"205269"}]}
+RESP:{"success":"true","submitted_message_id":"5d950d6b-b524-44e4-8cb9-399e03c1b204"}
+
+2025-10-28T10:21:31+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"9715245006","userName":"SR Seatiing Private Limiited","source":"website","templateParams":["690840"],"buttonParams":[{"type":"copy_code","text":"690840"}]}
+RESP:{"success":"true","submitted_message_id":"5b4eee56-ab57-43c1-a651-58f343853843"}
+
+2025-10-28T10:44:39+01:00 HTTP:200
+REQ: {"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"919715245006","userName":"SR Seatiing Private Limiited","source":"website","templateParams":["$otp"],"paramsFallbackValue":{"otp":"547739","FirstName":"547739"},"buttonParams":[{"type":"copy_code","text":"547739"}]}
+RESP: {"success":"true","submitted_message_id":"ace1ee22-f0bd-4cea-b6af-1247a3e7cede"}
+
+2025-10-28T10:46:21+01:00 HTTP:200
+REQ: {"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"9715245006","userName":"SR Seating Private Limited","source":"website","templateParams":["$otp"],"paramsFallbackValue":{"otp":"541879","FirstName":"541879"},"buttonParams":[{"type":"copy_code","text":"541879"}]}
+RESP: {"success":"true","submitted_message_id":"6f74d0c6-1e98-4a42-8798-a4ed8296c0b8"}
+
+2025-10-28T10:46:50+01:00 HTTP:200
+REQ: {"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"9715245006","userName":"SR Seating Private Limited","source":"website","templateParams":["$otp"],"paramsFallbackValue":{"otp":"996152","FirstName":"996152"},"buttonParams":[{"type":"copy_code","text":"996152"}]}
+RESP: {"success":"true","submitted_message_id":"09f75dc8-7725-44c5-928c-5c7491dcd323"}
+
+2025-10-28T10:47:07+01:00 HTTP:200
+REQ: {"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"9715245006","userName":"SR Seatiing Private Limiited","source":"website","templateParams":["$otp"],"paramsFallbackValue":{"otp":"011428","FirstName":"011428"},"buttonParams":[{"type":"copy_code","text":"011428"}]}
+RESP: {"success":"true","submitted_message_id":"f9b471b6-dd28-404e-8a16-70ad75d4c9b3"}
+
+2025-10-28T10:47:24+01:00 HTTP:200
+REQ: {"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"919715245006","userName":"SR Seatiing Private Limiited","source":"website","templateParams":["$otp"],"paramsFallbackValue":{"otp":"000523","FirstName":"000523"},"buttonParams":[{"type":"copy_code","text":"000523"}]}
+RESP: {"success":"true","submitted_message_id":"6028276a-4028-40ac-b063-5402ca25d31f"}
+
+2025-10-28T10:51:23+01:00 HTTP:200
+REQ:{"apiKey":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek","campaignName":"OTP Verification","destination":"919715245006","userName":"SR Seatiing Private Limiited","source":"website","templateParams":["603706"],"buttons":[{"type":"copy_code","sub_type":"copy_code","index":0,"parameters":[{"type":"text","text":"603706"}]}]}
+RESP:{"success":"true","submitted_message_id":"b4b740a2-f319-444f-ba0f-ba2eb2592bde"}
+

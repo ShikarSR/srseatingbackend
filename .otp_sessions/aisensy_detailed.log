@@ -1,0 +1,1966 @@
+2025-10-28T10:54:56+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying [64:ff9b::4102:2f06]:443...
+*   Trying 65.2.47.6:443...
+* Connected to backend.aisensy.com (64:ff9b::4102:2f06) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 478]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 478
+
+< HTTP/2 200 
+< date: Tue, 28 Oct 2025 09:54:55 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 3203@ip-10-0-3-68.ap-south-1.compute.internal/542dfcbe638b4da0726b5a00-0000000000073532
+< etag: W/"50-ip32HLrwvKNR73ixGp2bnnxTrfw"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "OTP Verification",
+    "destination": "919715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "website",
+    "templateParams": [
+        "544724"
+    ]
+}
+Response: {"success":"true","submitted_message_id":"c532ce9d-aba9-4871-8426-8c262f3be554"}
+
+2025-10-28T10:55:35+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying [64:ff9b::4102:2f06]:443...
+* Connected to backend.aisensy.com (64:ff9b::4102:2f06) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 476]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 476
+
+< HTTP/2 200 
+< date: Tue, 28 Oct 2025 09:55:34 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 3210@ip-10-0-1-62.ap-south-1.compute.internal/4a16ebf3e76f64c1abf87cd2-0000000000073544
+< etag: W/"50-gAt0B7WcC/QvfjZ92IDMFpQu/xg"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "OTP Verification",
+    "destination": "9715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "website",
+    "templateParams": [
+        "940326"
+    ]
+}
+Response: {"success":"true","submitted_message_id":"914f7934-c535-482c-9396-09f2cbb0a069"}
+
+2025-10-28T10:57:30+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying [64:ff9b::4102:2f06]:443...
+* Connected to backend.aisensy.com (64:ff9b::4102:2f06) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 476]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 476
+
+< HTTP/2 200 
+< date: Tue, 28 Oct 2025 09:57:29 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 3182@ip-10-0-1-165.ap-south-1.compute.internal/38655a5974d94d20b83a424e-0000000000673041
+< etag: W/"50-YACzMaEqINgadAOxsuFagwmxWBc"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "OTP Verification",
+    "destination": "9715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "website",
+    "templateParams": [
+        "731898"
+    ]
+}
+Response: {"success":"true","submitted_message_id":"110ac992-cccf-4430-ad76-1bdc5a16bdf4"}
+
+2025-10-28T11:56:30+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying [64:ff9b::4102:2f06]:443...
+* Connected to backend.aisensy.com (64:ff9b::4102:2f06) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 476]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 476
+
+< HTTP/2 200 
+< date: Tue, 28 Oct 2025 10:56:29 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 3189@ip-10-0-3-68.ap-south-1.compute.internal/b048a12744cda931b1e8a70a-0000000000083581
+< etag: W/"50-WXM/VLpkE6lcnxwgjKujAZRhDa0"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "OTP Verification",
+    "destination": "9715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "website",
+    "templateParams": [
+        "052487"
+    ]
+}
+Response: {"success":"true","submitted_message_id":"6c52405e-78e2-42f6-b8a2-c1138c821b39"}
+
+2025-10-28T12:49:16+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying [64:ff9b::4102:2f06]:443...
+* Connected to backend.aisensy.com (64:ff9b::4102:2f06) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 589]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 589
+
+< HTTP/2 200 
+< date: Tue, 28 Oct 2025 11:49:15 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 3187@ip-10-0-3-65.ap-south-1.compute.internal/13b0dc16bb7f2ce6e96e9dfe-0000000000091847
+< etag: W/"50-7XlQ57Z5nL50zfWyPtdp2PXNng8"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "OTP Verification",
+    "destination": "9715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "website",
+    "templateParams": [
+        "109680"
+    ],
+    "buttons": [
+        {
+            "type": "copy_code",
+            "sub_type": "copy_code",
+            "index": 0,
+            "parameters": [
+                {
+                    "type": "text",
+                    "text": "109680"
+                }
+            ]
+        }
+    ]
+}
+Response: {"success":"true","submitted_message_id":"3980b29c-779d-4d16-ad7b-9bad13fd914c"}
+
+2025-10-29T11:00:56+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying 65.2.47.6:443...
+* Connected to backend.aisensy.com (65.2.47.6) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 709]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 709
+
+< HTTP/2 200 
+< date: Wed, 29 Oct 2025 10:00:56 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 28557@ip-10-0-3-15.ap-south-1.compute.internal/90815337b96cecf511ab4071-0000000000005463
+< etag: W/"50-xR8Rcn7wzm/lASWu0xMGjBXPxCE"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "WhatsApp OTP Verification1",
+    "destination": "919715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "new-landing-page form",
+    "templateParams": [
+        "772811"
+    ],
+    "media": {},
+    "buttons": [
+        {
+            "type": "button",
+            "sub_type": "url",
+            "index": 0,
+            "parameters": [
+                {
+                    "type": "text",
+                    "text": "772811"
+                }
+            ]
+        }
+    ],
+    "carouselCards": [],
+    "location": {},
+    "attributes": {},
+    "paramsFallbackValue": {
+        "FirstName": "user"
+    }
+}
+Response: {"success":"true","submitted_message_id":"2fd27682-183e-4699-bc31-58bb665d1db6"}
+
+2025-10-29T11:02:17+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying 65.2.47.6:443...
+* Connected to backend.aisensy.com (65.2.47.6) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 707]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 707
+
+< HTTP/2 200 
+< date: Wed, 29 Oct 2025 10:02:17 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 3274@ip-10-0-1-129.ap-south-1.compute.internal/1aa89ffceee4bf509a117efc-0000000000006414
+< etag: W/"50-npq3CMB914u1tMgDXKgyH2jqs8E"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "WhatsApp OTP Verification1",
+    "destination": "8788266456",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "new-landing-page form",
+    "templateParams": [
+        "764515"
+    ],
+    "media": {},
+    "buttons": [
+        {
+            "type": "button",
+            "sub_type": "url",
+            "index": 0,
+            "parameters": [
+                {
+                    "type": "text",
+                    "text": "764515"
+                }
+            ]
+        }
+    ],
+    "carouselCards": [],
+    "location": {},
+    "attributes": {},
+    "paramsFallbackValue": {
+        "FirstName": "user"
+    }
+}
+Response: {"success":"true","submitted_message_id":"f1143cf7-d960-4f47-b088-24ba28d42276"}
+
+2025-10-29T11:22:03+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying 13.235.239.71:443...
+* Connected to backend.aisensy.com (13.235.239.71) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 709]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 709
+
+< HTTP/2 200 
+< date: Wed, 29 Oct 2025 10:22:03 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 3295@ip-10-0-1-129.ap-south-1.compute.internal/d6f4c89bace21923192c896c-0000000000010240
+< etag: W/"50-8mtxVhX7M38n9xqy/iGler30QOM"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "WhatsApp OTP Verification1",
+    "destination": "919715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "new-landing-page form",
+    "templateParams": [
+        "591549"
+    ],
+    "media": {},
+    "buttons": [
+        {
+            "type": "button",
+            "sub_type": "url",
+            "index": 0,
+            "parameters": [
+                {
+                    "type": "text",
+                    "text": "591549"
+                }
+            ]
+        }
+    ],
+    "carouselCards": [],
+    "location": {},
+    "attributes": {},
+    "paramsFallbackValue": {
+        "FirstName": "user"
+    }
+}
+Response: {"success":"true","submitted_message_id":"bb8a4275-3482-435c-96d6-3f5cdbce4066"}
+
+2025-10-29T11:24:29+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying 65.2.47.6:443...
+* Connected to backend.aisensy.com (65.2.47.6) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 709]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 709
+
+< HTTP/2 200 
+< date: Wed, 29 Oct 2025 10:24:29 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 22959@ip-10-0-3-245.ap-south-1.compute.internal/b312315edd16f0aee40350da-0000000000010269
+< etag: W/"50-eSwm2NUxWg19G/EQ3QjG98sXt0o"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "WhatsApp OTP Verification1",
+    "destination": "919715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "new-landing-page form",
+    "templateParams": [
+        "357079"
+    ],
+    "media": {},
+    "buttons": [
+        {
+            "type": "button",
+            "sub_type": "url",
+            "index": 0,
+            "parameters": [
+                {
+                    "type": "text",
+                    "text": "357079"
+                }
+            ]
+        }
+    ],
+    "carouselCards": [],
+    "location": {},
+    "attributes": {},
+    "paramsFallbackValue": {
+        "FirstName": "user"
+    }
+}
+Response: {"success":"true","submitted_message_id":"70cefe7c-8f45-41e6-bd9a-cec433efc63d"}
+
+2025-10-29T11:25:20+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying 13.235.239.71:443...
+* Connected to backend.aisensy.com (13.235.239.71) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 709]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 709
+
+< HTTP/2 200 
+< date: Wed, 29 Oct 2025 10:25:20 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 23080@ip-10-0-3-236.ap-south-1.compute.internal/5e79401f15fbdf4d7e0e2454-0000000000009592
+< etag: W/"50-7wPs7Utm62eYZ49L5lf7XlF8wUU"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "WhatsApp OTP Verification1",
+    "destination": "919715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "new-landing-page form",
+    "templateParams": [
+        "434637"
+    ],
+    "media": {},
+    "buttons": [
+        {
+            "type": "button",
+            "sub_type": "url",
+            "index": 0,
+            "parameters": [
+                {
+                    "type": "text",
+                    "text": "434637"
+                }
+            ]
+        }
+    ],
+    "carouselCards": [],
+    "location": {},
+    "attributes": {},
+    "paramsFallbackValue": {
+        "FirstName": "user"
+    }
+}
+Response: {"success":"true","submitted_message_id":"1f3a626c-5335-4445-9163-54dc49f56b42"}
+
+2025-10-29T11:26:07+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying 65.2.47.6:443...
+* Connected to backend.aisensy.com (65.2.47.6) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 707]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 707
+
+< HTTP/2 200 
+< date: Wed, 29 Oct 2025 10:26:07 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 22960@ip-10-0-3-245.ap-south-1.compute.internal/5ad18d03841ad5f269fd94d7-0000000000010507
+< etag: W/"50-SUe/641sVmtE93jR3GaZ6s4gL9w"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "WhatsApp OTP Verification1",
+    "destination": "9715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "new-landing-page form",
+    "templateParams": [
+        "532645"
+    ],
+    "media": {},
+    "buttons": [
+        {
+            "type": "button",
+            "sub_type": "url",
+            "index": 0,
+            "parameters": [
+                {
+                    "type": "text",
+                    "text": "532645"
+                }
+            ]
+        }
+    ],
+    "carouselCards": [],
+    "location": {},
+    "attributes": {},
+    "paramsFallbackValue": {
+        "FirstName": "user"
+    }
+}
+Response: {"success":"true","submitted_message_id":"bb2e1eab-2c1f-4f1f-b43d-192c94d368cd"}
+
+2025-10-29T11:28:49+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying 13.235.239.71:443...
+* Connected to backend.aisensy.com (13.235.239.71) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 709]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 709
+
+< HTTP/2 200 
+< date: Wed, 29 Oct 2025 10:28:49 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 23091@ip-10-0-3-236.ap-south-1.compute.internal/ff70cd7e0a0a6638ed0f0960-0000000000010066
+< etag: W/"50-X2vYYGkcBaZ8ZWgb1x9lUUiiFm0"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "WhatsApp OTP Verification1",
+    "destination": "919715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "new-landing-page form",
+    "templateParams": [
+        "730842"
+    ],
+    "media": {},
+    "buttons": [
+        {
+            "type": "button",
+            "sub_type": "url",
+            "index": 0,
+            "parameters": [
+                {
+                    "type": "text",
+                    "text": "730842"
+                }
+            ]
+        }
+    ],
+    "carouselCards": [],
+    "location": {},
+    "attributes": {},
+    "paramsFallbackValue": {
+        "FirstName": "user"
+    }
+}
+Response: {"success":"true","submitted_message_id":"940e2552-4d61-4f1a-8ebf-3178da90be7c"}
+
+2025-10-29T11:30:08+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying 13.235.239.71:443...
+* Connected to backend.aisensy.com (13.235.239.71) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 707]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 707
+
+< HTTP/2 200 
+< date: Wed, 29 Oct 2025 10:30:07 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 22959@ip-10-0-3-245.ap-south-1.compute.internal/b312315edd16f0aee40350da-0000000000011081
+< etag: W/"50-SEY3DeGxqwiADEkCK65eMiXHWS8"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "WhatsApp OTP Verification1",
+    "destination": "9715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "new-landing-page form",
+    "templateParams": [
+        "524198"
+    ],
+    "media": {},
+    "buttons": [
+        {
+            "type": "button",
+            "sub_type": "url",
+            "index": 0,
+            "parameters": [
+                {
+                    "type": "text",
+                    "text": "524198"
+                }
+            ]
+        }
+    ],
+    "carouselCards": [],
+    "location": {},
+    "attributes": {},
+    "paramsFallbackValue": {
+        "FirstName": "user"
+    }
+}
+Response: {"success":"true","submitted_message_id":"b4c7a914-5c31-4bcc-840b-c17be4c8512b"}
+
+2025-10-29T11:31:12+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying 13.235.239.71:443...
+* Connected to backend.aisensy.com (13.235.239.71) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 707]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 707
+
+< HTTP/2 200 
+< date: Wed, 29 Oct 2025 10:31:12 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 23688@ip-10-0-1-220.ap-south-1.compute.internal/8d18db30aa2c30f1b5cb1b5a-0000000000010042
+< etag: W/"50-hD2sQHKmg/OXsBnDm5bdqXcYXKU"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "WhatsApp OTP Verification1",
+    "destination": "9715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "new-landing-page form",
+    "templateParams": [
+        "544927"
+    ],
+    "media": {},
+    "buttons": [
+        {
+            "type": "button",
+            "sub_type": "url",
+            "index": 0,
+            "parameters": [
+                {
+                    "type": "text",
+                    "text": "544927"
+                }
+            ]
+        }
+    ],
+    "carouselCards": [],
+    "location": {},
+    "attributes": {},
+    "paramsFallbackValue": {
+        "FirstName": "user"
+    }
+}
+Response: {"success":"true","submitted_message_id":"90e7fd61-79a2-40e7-8470-205da3253def"}
+
+2025-10-29T11:33:02+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying 65.2.47.6:443...
+* Connected to backend.aisensy.com (65.2.47.6) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 709]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 709
+
+< HTTP/2 200 
+< date: Wed, 29 Oct 2025 10:33:02 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 23091@ip-10-0-3-236.ap-south-1.compute.internal/ff70cd7e0a0a6638ed0f0960-0000000000010824
+< etag: W/"50-xlLwbm1g3AHu10y9cHXNAjaUFQE"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "WhatsApp OTP Verification1",
+    "destination": "919715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "new-landing-page form",
+    "templateParams": [
+        "865552"
+    ],
+    "media": {},
+    "buttons": [
+        {
+            "type": "button",
+            "sub_type": "url",
+            "index": 0,
+            "parameters": [
+                {
+                    "type": "text",
+                    "text": "865552"
+                }
+            ]
+        }
+    ],
+    "carouselCards": [],
+    "location": {},
+    "attributes": {},
+    "paramsFallbackValue": {
+        "FirstName": "user"
+    }
+}
+Response: {"success":"true","submitted_message_id":"1badcac0-048a-4afd-8b37-09033a3684f3"}
+
+2025-10-29T11:41:03+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying 13.235.239.71:443...
+* Connected to backend.aisensy.com (13.235.239.71) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 707]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 707
+
+< HTTP/2 200 
+< date: Wed, 29 Oct 2025 10:41:02 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 23094@ip-10-0-3-236.ap-south-1.compute.internal/ed3e3998202c4c83b2929350-0000000000012015
+< etag: W/"50-+lQRQF6cg3UQjS6RtuU6+B0+6Ss"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "WhatsApp OTP Verification1",
+    "destination": "9715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "new-landing-page form",
+    "templateParams": [
+        "717889"
+    ],
+    "media": {},
+    "buttons": [
+        {
+            "type": "button",
+            "sub_type": "url",
+            "index": 0,
+            "parameters": [
+                {
+                    "type": "text",
+                    "text": "717889"
+                }
+            ]
+        }
+    ],
+    "carouselCards": [],
+    "location": {},
+    "attributes": {},
+    "paramsFallbackValue": {
+        "FirstName": "user"
+    }
+}
+Response: {"success":"true","submitted_message_id":"26e25f34-dd1b-45fc-8053-c1ab185afe39"}
+
+2025-10-29T11:42:31+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying 65.2.47.6:443...
+* Connected to backend.aisensy.com (65.2.47.6) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 707]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 707
+
+< HTTP/2 200 
+< date: Wed, 29 Oct 2025 10:42:31 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 28558@ip-10-0-3-15.ap-south-1.compute.internal/b182b2543849cd769be9b72f-0000000000012654
+< etag: W/"50-rqSHb6Fo0VaLIoj3yiGjqV2VRrU"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "WhatsApp OTP Verification1",
+    "destination": "9715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "new-landing-page form",
+    "templateParams": [
+        "484883"
+    ],
+    "media": {},
+    "buttons": [
+        {
+            "type": "button",
+            "sub_type": "url",
+            "index": 0,
+            "parameters": [
+                {
+                    "type": "text",
+                    "text": "484883"
+                }
+            ]
+        }
+    ],
+    "carouselCards": [],
+    "location": {},
+    "attributes": {},
+    "paramsFallbackValue": {
+        "FirstName": "user"
+    }
+}
+Response: {"success":"true","submitted_message_id":"6a4dad3b-dc87-4e0a-9f69-06c0d58e5d21"}
+
+2025-10-30T12:24:44+01:00
+URL: https://backend.aisensy.com/api/sendCampaign
+HTTP Status: 404
+cURL Error: None
+Verbose: *   Trying 65.2.47.6:443...
+* Connected to backend.aisensy.com (65.2.47.6) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/api/sendCampaign
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /api/sendCampaign]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 707]
+> POST /api/sendCampaign HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 707
+
+< HTTP/2 404 
+< date: Thu, 30 Oct 2025 11:24:44 GMT
+< content-type: text/html; charset=utf-8
+< content-length: 156
+< server: nginx
+< x-powered-by: Express
+< access-control-allow-origin: *
+< content-security-policy: default-src 'none'
+< x-content-type-options: nosniff
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "WhatsApp OTP Verification1",
+    "destination": "9715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "new-landing-page form",
+    "templateParams": [
+        "225435"
+    ],
+    "media": {},
+    "buttons": [
+        {
+            "type": "button",
+            "sub_type": "url",
+            "index": 0,
+            "parameters": [
+                {
+                    "type": "text",
+                    "text": "225435"
+                }
+            ]
+        }
+    ],
+    "carouselCards": [],
+    "location": {},
+    "attributes": {},
+    "paramsFallbackValue": {
+        "FirstName": "user"
+    }
+}
+Response: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /api/sendCampaign</pre>
+</body>
+</html>
+
+
+2025-10-30T12:26:02+01:00
+URL: https://backend.aisensy.com/api/sendCampaign
+HTTP Status: 404
+cURL Error: None
+Verbose: *   Trying 65.2.47.6:443...
+* Connected to backend.aisensy.com (65.2.47.6) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/api/sendCampaign
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /api/sendCampaign]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 707]
+> POST /api/sendCampaign HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 707
+
+< HTTP/2 404 
+< date: Thu, 30 Oct 2025 11:26:02 GMT
+< content-type: text/html; charset=utf-8
+< content-length: 156
+< server: nginx
+< x-powered-by: Express
+< access-control-allow-origin: *
+< content-security-policy: default-src 'none'
+< x-content-type-options: nosniff
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "WhatsApp OTP Verification1",
+    "destination": "9715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "new-landing-page form",
+    "templateParams": [
+        "824246"
+    ],
+    "media": {},
+    "buttons": [
+        {
+            "type": "button",
+            "sub_type": "url",
+            "index": 0,
+            "parameters": [
+                {
+                    "type": "text",
+                    "text": "824246"
+                }
+            ]
+        }
+    ],
+    "carouselCards": [],
+    "location": {},
+    "attributes": {},
+    "paramsFallbackValue": {
+        "FirstName": "user"
+    }
+}
+Response: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /api/sendCampaign</pre>
+</body>
+</html>
+
+
+2025-10-30T12:28:47+01:00
+URL: https://backend.aisensy.com/api/sendCampaign/
+HTTP Status: 404
+cURL Error: None
+Verbose: *   Trying 65.2.47.6:443...
+* Connected to backend.aisensy.com (65.2.47.6) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/api/sendCampaign/
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /api/sendCampaign/]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 616]
+> POST /api/sendCampaign/ HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 616
+
+< HTTP/2 404 
+< date: Thu, 30 Oct 2025 11:28:46 GMT
+< content-type: text/html; charset=utf-8
+< content-length: 157
+< server: nginx
+< x-powered-by: Express
+< access-control-allow-origin: *
+< content-security-policy: default-src 'none'
+< x-content-type-options: nosniff
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "WhatsApp OTP Verification1",
+    "destination": "9715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "new-landing-page form",
+    "templateParams": [
+        "723111"
+    ],
+    "media": {},
+    "buttons": [],
+    "carouselCards": [],
+    "location": {},
+    "attributes": {},
+    "paramsFallbackValue": {
+        "FirstName": "user"
+    }
+}
+Response: <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Error</title>
+</head>
+<body>
+<pre>Cannot POST /api/sendCampaign/</pre>
+</body>
+</html>
+
+
+2025-10-30T12:29:55+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying 13.235.239.71:443...
+* Connected to backend.aisensy.com (13.235.239.71) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 616]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 616
+
+< HTTP/2 200 
+< date: Thu, 30 Oct 2025 11:29:55 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 3194@ip-10-0-1-203.ap-south-1.compute.internal/8ea277737b871883f06eeb49-0000000000094756
+< etag: W/"50-uyrdVGyP3z0NJp8ztiryH8+5jpI"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "WhatsApp OTP Verification1",
+    "destination": "9715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "new-landing-page form",
+    "templateParams": [
+        "166490"
+    ],
+    "media": {},
+    "buttons": [],
+    "carouselCards": [],
+    "location": {},
+    "attributes": {},
+    "paramsFallbackValue": {
+        "FirstName": "user"
+    }
+}
+Response: {"success":"true","submitted_message_id":"12c7c935-4b56-4b5e-9076-36a03ac41184"}
+
+2025-10-30T12:37:45+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying 65.2.47.6:443...
+* Connected to backend.aisensy.com (65.2.47.6) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 616]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 616
+
+< HTTP/2 200 
+< date: Thu, 30 Oct 2025 11:37:44 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 3195@ip-10-0-1-246.ap-south-1.compute.internal/114ec3f2d3064aa2a43c269a-0000000000141004
+< etag: W/"50-IWWei55d+WjdfjfMnla1tLStiMo"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "WhatsApp OTP Verification1",
+    "destination": "9715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "new-landing-page form",
+    "templateParams": [
+        "352035"
+    ],
+    "media": {},
+    "buttons": [],
+    "carouselCards": [],
+    "location": {},
+    "attributes": {},
+    "paramsFallbackValue": {
+        "FirstName": "user"
+    }
+}
+Response: {"success":"true","submitted_message_id":"d04f9d49-c010-4983-bb24-4eacdcc01446"}
+
+2025-10-30T12:42:03+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying 13.235.239.71:443...
+* Connected to backend.aisensy.com (13.235.239.71) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 707]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 707
+
+< HTTP/2 200 
+< date: Thu, 30 Oct 2025 11:42:02 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 3190@ip-10-0-3-155.ap-south-1.compute.internal/fb9c3b39ac807c676d363742-0000000000097154
+< etag: W/"50-91MoQehwn0nPnN9t6S73vdbTZ6s"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "WhatsApp OTP Verification1",
+    "destination": "9715245006",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "new-landing-page form",
+    "templateParams": [
+        "689079"
+    ],
+    "media": {},
+    "buttons": [
+        {
+            "type": "button",
+            "sub_type": "url",
+            "index": 0,
+            "parameters": [
+                {
+                    "type": "text",
+                    "text": "689079"
+                }
+            ]
+        }
+    ],
+    "carouselCards": [],
+    "location": {},
+    "attributes": {},
+    "paramsFallbackValue": {
+        "FirstName": "user"
+    }
+}
+Response: {"success":"true","submitted_message_id":"240bf865-9282-4399-8667-3cca2289c0ce"}
+
+2025-10-30T12:42:44+01:00
+URL: https://backend.aisensy.com/campaign/t1/api/v2
+HTTP Status: 200
+cURL Error: None
+Verbose: *   Trying 13.235.239.71:443...
+* Connected to backend.aisensy.com (13.235.239.71) port 443
+* ALPN: curl offers h2,http/1.1
+*  CAfile: C:\xampp\apache\bin\curl-ca-bundle.crt
+*  CApath: none
+* SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256
+* ALPN: server accepted h2
+* Server certificate:
+*  subject: CN=*.aisensy.com
+*  start date: Jan 24 00:00:00 2025 GMT
+*  expire date: Feb 22 23:59:59 2026 GMT
+*  subjectAltName: host "backend.aisensy.com" matched cert's "*.aisensy.com"
+*  issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03
+*  SSL certificate verify ok.
+* using HTTP/2
+* [HTTP/2] [1] OPENED stream for https://backend.aisensy.com/campaign/t1/api/v2
+* [HTTP/2] [1] [:method: POST]
+* [HTTP/2] [1] [:scheme: https]
+* [HTTP/2] [1] [:authority: backend.aisensy.com]
+* [HTTP/2] [1] [:path: /campaign/t1/api/v2]
+* [HTTP/2] [1] [accept: */*]
+* [HTTP/2] [1] [content-type: application/json]
+* [HTTP/2] [1] [content-length: 707]
+> POST /campaign/t1/api/v2 HTTP/2
+Host: backend.aisensy.com
+Accept: */*
+Content-Type: application/json
+Content-Length: 707
+
+< HTTP/2 200 
+< date: Thu, 30 Oct 2025 11:42:43 GMT
+< content-type: application/json; charset=utf-8
+< content-length: 80
+< server: nginx
+< content-security-policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+< x-dns-prefetch-control: off
+< expect-ct: max-age=0
+< x-frame-options: SAMEORIGIN
+< strict-transport-security: max-age=15552000; includeSubDomains
+< x-download-options: noopen
+< x-content-type-options: nosniff
+< x-permitted-cross-domain-policies: none
+< referrer-policy: no-referrer
+< x-xss-protection: 0
+< vary: Origin
+< access-control-allow-credentials: true
+< request-id: 3187@ip-10-0-1-103.ap-south-1.compute.internal/eaf234763b04a066dbedb14b-0000000000097169
+< etag: W/"50-JzoaMx2gz0YLcSOeplZi/N36HYE"
+< 
+* Connection #0 to host backend.aisensy.com left intact
+
+Request: {
+    "apiKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExZSIsIm5hbWUiOiJTUiBTZWF0aWluZyBQcml2YXRlIExpbWlpdGVkIiwiYXBwTmFtZSI6IkFpU2Vuc3kiLCJjbGllbnRJZCI6IjY4ZjA5YjNlNjAxZDg4N2NiZDFkMzExOSIsImFjdGl2ZVBsYW4iOiJGUkVFX0ZPUkVWRVIiLCJpYXQiOjE3NjA1OTg4NDZ9.e9R8rzjXSK6elyTzNLdROL2pTmdUCl76XMv-TB-beek",
+    "campaignName": "WhatsApp OTP Verification1",
+    "destination": "8788266456",
+    "userName": "SR Seatiing Private Limiited",
+    "source": "new-landing-page form",
+    "templateParams": [
+        "517409"
+    ],
+    "media": {},
+    "buttons": [
+        {
+            "type": "button",
+            "sub_type": "url",
+            "index": 0,
+            "parameters": [
+                {
+                    "type": "text",
+                    "text": "517409"
+                }
+            ]
+        }
+    ],
+    "carouselCards": [],
+    "location": {},
+    "attributes": {},
+    "paramsFallbackValue": {
+        "FirstName": "user"
+    }
+}
+Response: {"success":"true","submitted_message_id":"051f7ab1-fc8f-4fa5-8121-e1c61237d21e"}
+
