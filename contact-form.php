@@ -56,7 +56,7 @@ if (empty($name) || empty($email) || empty($message)) {
     exit;
 }
 
-$query = "INSERT INTO contacts (name, email, phone, companyname, message, choosesolution)
+$query = "INSERT INTO srcontact_form (name, email, phone, companyname, message, choosesolution)
           VALUES ('$name', '$email', '$phone', '$companyname', '$message', '$choosesolution')";
 
 file_put_contents(__DIR__ . '/debug_contact.txt', $query . PHP_EOL, FILE_APPEND);
