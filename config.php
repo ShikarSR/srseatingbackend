@@ -1,17 +1,15 @@
 <?php
-$servername = "134.209.144.29";  // force TCP instead of socket
+$servername = "134.209.144.29";  // use public IP or 127.0.0.1
 $username = "sradmin";
 $password = "srSeating5s";
 $dbname = "srcontact_form";
+$port = 3306;
 
-$conn = new mysqli($servername, $username, $password, $dbname, 3306);
-
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
-}
-else{
-  echo "Server Connected";
+$conn = new mysqli($servername, $username, $password, $dbname, $port, '/tmp/mysql.sock');
+if ($conn->connect_errno) {
+    die("Connection failed: (" . $conn->connect_errno . ") " . $conn->connect_error);
+} else {
+    echo "✅ Server Connected Successfully";
 }
 ?>
 
