@@ -1,5 +1,5 @@
 <?php
-$servername = "127.0.0.1";  // force TCP instead of socket
+$servername = "134.209.144.29";  // force TCP instead of socket
 $username = "sradmin";
 $password = "srSeating5s";
 $dbname = "srcontact_form";
