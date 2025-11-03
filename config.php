@@ -2,20 +2,19 @@
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
-$servername = "134.209.144.29";  // your droplet's public IP
-$username = "sradmin";
-$password = "srSeating5s";
-$dbname = "srcontact_form";
-$port = 3306; // ensure it uses TCP
+$servername = "134.209.144.29";
+$username   = "sradmin";
+$password   = "srSeating5s";
+$dbname     = "srcontact_form";
+$port       = 3306;
 
-// Force TCP connection (avoid Unix socket)
-$conn = new mysqli($servername, $username, $password, $dbname, $port);
+// Force TCP instead of socket
+$conn = new mysqli($servername, $username, $password, $dbname, $port, null);
 
-// Debug connection errors
-if ($conn->connect_error) {
-    die("❌ MySQL connection failed: (" . $conn->connect_errno . ") " . $conn->connect_error);
+if ($conn->connect_errno) {
+    die("❌ Connection failed: (" . $conn->connect_errno . ") " . $conn->connect_error);
 } else {
-    echo "✅ MySQL connected successfully<br>";
+    echo "✅ Connected successfully (TCP)";
 }
 ?>
 
