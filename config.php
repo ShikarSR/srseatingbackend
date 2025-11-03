@@ -1,19 +1,20 @@
-
 <?php
-$servername = "localhost";
+$servername = "127.0.0.1";  // force TCP instead of socket
 $username = "sradmin";
 $password = "srSeating5s";
-$dbname = "srcontact_form"; // or srcontact_form if you prefer
+$dbname = "srcontact_form";
 
-$conn = new mysqli($servername, $username, $password, $dbname);
+$conn = new mysqli($servername, $username, $password, $dbname, 3306, '/var/run/mysqld/mysqld.sock');
+
+// Check connection
 if ($conn->connect_error) {
-    die(json_encode(["error" => "Database connection failed: " . $conn->connect_error]));
+    die("Connection failed: " . $conn->connect_error);
 }
 else{
-    echo "✅ Connected OK";
-
+  echo "Server Connected";
 }
 ?>
+
 
 
 <?php
