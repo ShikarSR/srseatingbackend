@@ -4,7 +4,7 @@ $username = "sradmin";
 $password = "srSeating5s";
 $dbname = "srcontact_form";
 
-$conn = new mysqli($servername, $username, $password, $dbname, 3306, '/var/run/mysqld/mysqld.sock');
+$conn = new mysqli($servername, $username, $password, $dbname, 3306);
 
 // Check connection
 if ($conn->connect_error) {
