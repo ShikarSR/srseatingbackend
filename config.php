@@ -1,3 +1,21 @@
+
+<?php
+$servername = "localhost";
+$username = "sradmin";
+$password = "srSeating5s";
+$dbname = "srcontact_form"; // or srcontact_form if you prefer
+
+$conn = new mysqli($servername, $username, $password, $dbname);
+if ($conn->connect_error) {
+    die(json_encode(["error" => "Database connection failed: " . $conn->connect_error]));
+}
+else{
+    echo "✅ Connected OK";
+
+}
+?>
+
+
 <?php
 /** ===== AiSensy + OTP config (edit these carefully) ===== */
 
