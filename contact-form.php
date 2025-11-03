@@ -35,7 +35,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 
 header('Content-Type: application/json');
 
-include('config.php'); // ✅ Using your config file
+include(__DIR__ . '/config.php'); // ✅ Using your config file
 
 $data = json_decode(file_get_contents("php://input"));
 
