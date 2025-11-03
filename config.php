@@ -1,17 +1,24 @@
 <?php
-$servername = "134.209.144.29";  // use public IP or 127.0.0.1
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+
+$servername = "134.209.144.29";  // your droplet's public IP
 $username = "sradmin";
 $password = "srSeating5s";
 $dbname = "srcontact_form";
-$port = 3306;
+$port = 3306; // ensure it uses TCP
 
-$conn = new mysqli($servername, $username, $password, $dbname, $port, '/tmp/mysql.sock');
-if ($conn->connect_errno) {
-    die("Connection failed: (" . $conn->connect_errno . ") " . $conn->connect_error);
+// Force TCP connection (avoid Unix socket)
+$conn = new mysqli($servername, $username, $password, $dbname, $port);
+
+// Debug connection errors
+if ($conn->connect_error) {
+    die("❌ MySQL connection failed: (" . $conn->connect_errno . ") " . $conn->connect_error);
 } else {
-    echo "✅ Server Connected Successfully";
+    echo "✅ MySQL connected successfully<br>";
 }
 ?>
+
 
 
 
